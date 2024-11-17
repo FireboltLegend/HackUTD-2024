@@ -12,10 +12,10 @@ import time
 
 conversation = []
 
-gtts_api_key = "AIzaSyDB70UuSAy0Gd6fxu3tF5mLp9NufPyulKw"
+gtts_api_key = "Your-Google-Cloud-API-Key"
 
 client = OpenAI(
-	api_key="add13954-7af9-4c07-b0d3-5e3f3ed4fd6f",
+	api_key="Your-Samba-API-Key",
 	base_url="https://api.sambanova.ai/v1",
 )
 
