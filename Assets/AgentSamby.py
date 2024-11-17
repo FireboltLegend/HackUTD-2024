@@ -140,7 +140,7 @@ while True:
 while True:
 	saveResponse("Say Something!")
 	print("Say Something!")
-	userResponse = getaudio()		
+	userResponse = getaudio()
 	response = samby(conversation)
 	saveResponse(response)
 	tts(response)
