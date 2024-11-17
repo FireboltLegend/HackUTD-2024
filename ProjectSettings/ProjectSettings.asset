@@ -747,7 +747,7 @@ PlayerSettings:
     PS5: READY_PLAYER_ME
     QNX: READY_PLAYER_ME
     Stadia: READY_PLAYER_ME
-    Standalone: READY_PLAYER_ME
+    Standalone: READY_PLAYER_ME;FUSION_WEAVER;FUSION2
     VisionOS: READY_PLAYER_ME
     WebGL: READY_PLAYER_ME
     Windows Store Apps: READY_PLAYER_ME
@@ -777,7 +777,7 @@ PlayerSettings:
     tvOS: 1
   incrementalIl2cppBuild: {}
   suppressCommonWarnings: 1
-  allowUnsafeCode: 0
+  allowUnsafeCode: 1
   useDeterministicCompilation: 1
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1

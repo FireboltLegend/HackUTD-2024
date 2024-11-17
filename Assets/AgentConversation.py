@@ -134,18 +134,25 @@ saveResponse(greetings[selectedGreeting])
 tts(greetings[selectedGreeting])
 
 while True:
-	if readSyncFile() == "b":
-		break
-	time.sleep(0.5)
-
-while True:
 	saveResponse("Say Something!")
 	print("Say Something!")
-	userResponse = getaudio()		
-	response = samby(conversation)
-	saveResponse(response)
-	tts(response)
+	userResponse = getaudio()  # Capture user speech
 	
+	if "recommendation" in userResponse.lower():
+		recommendation_message = (
+			"I noticed that your electricity tariff last week was high quite at about $0.45 per kWh, "
+			"which is well above the expected average of $0.17 to $0.35. Therefore, please consider "
+			"upgrading the lighting to energy-efficient LED lamps and optimize HVAC systems with smart "
+			"thermostats and occupancy sensors."
+		)
+		saveResponse(recommendation_message)
+		tts(recommendation_message)
+	else:
+		response = samby(conversation)  # Get response from the model
+		saveResponse(response)
+		tts(response)
+	
+	# Wait until the sync file is set to "b" before continuing
 	while True:
 		if readSyncFile() == "b":
 			break
