@@ -51,5 +51,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "HackUTD-2024.sln"
+    "dotnet.defaultSolution": "HackUTD-2024.sln",
+    "dotnet.preferCSharpExtension": true
 }
