@@ -15,5 +15,5 @@ MonoBehaviour:
   Subdomain: propertyvr
   AppId: 673918ac396ed1e04e0ff1c1
   EnableLogging: 0
-  EnableAnalytics: 0
+  EnableAnalytics: 1
   BodyType: 1
