@@ -59,6 +59,8 @@ def getaudio():
 			recognized_text = recognizer.recognize_google(audio)
 			conversation.append({'role': 'user', 'content': recognized_text})
 			print("User:", recognized_text)
+			with open(os.path.join(os.path.dirname(__file__), "user.txt"), "w", encoding='utf-8') as file:
+				file.write(recognized_text)
 			return recognized_text
 			
 		except sr.WaitTimeoutError: 
