@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Bhaptics.SDK2;
 
 public class Outliner : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class Outliner : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
+        BhapticsLibrary.Play("right_hand");
         if (GetComponent<Outline>().enabled && timer > .3)
         {
             GetComponent<Outline>().enabled = false;
