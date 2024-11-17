@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: a1168612994ee5d4d9983492867d8cf2
+  productGUID: 063ed636f95b92348aeadd32ac5b01f0
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: HackUTD 2024
+  productName: HackUTD-2024
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -736,24 +736,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
-  scriptingDefineSymbols:
-    Android: READY_PLAYER_ME
-    EmbeddedLinux: READY_PLAYER_ME
-    GameCoreScarlett: READY_PLAYER_ME
-    GameCoreXboxOne: READY_PLAYER_ME
-    LinuxHeadlessSimulation: READY_PLAYER_ME
-    Nintendo Switch: READY_PLAYER_ME
-    PS4: READY_PLAYER_ME
-    PS5: READY_PLAYER_ME
-    QNX: READY_PLAYER_ME
-    Stadia: READY_PLAYER_ME
-    Standalone: READY_PLAYER_ME
-    VisionOS: READY_PLAYER_ME
-    WebGL: READY_PLAYER_ME
-    Windows Store Apps: READY_PLAYER_ME
-    XboxOne: READY_PLAYER_ME
-    iPhone: READY_PLAYER_ME
-    tvOS: READY_PLAYER_ME
+  scriptingDefineSymbols: {}
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -786,14 +769,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: HackUTD 2024
+  metroPackageName: HackUTD-2024
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: HackUTD 2024
+  metroApplicationDescription: HackUTD-2024
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
