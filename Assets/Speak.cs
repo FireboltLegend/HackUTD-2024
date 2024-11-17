@@ -9,8 +9,7 @@ using UnityEngine.Networking;
 public class Speak : MonoBehaviour
 {
 	[SerializeField] private GameObject avatar;
-	[SerializeField, ReadOnly(true)] private AudioSource audioSource;
-	[SerializeField] private TextAsset textFile;
+	[SerializeField] private AudioSource audioSource;
 	private bool isPlaying = false;
 	// Start is called before the first frame update
 	void Start()
@@ -36,8 +35,12 @@ public class Speak : MonoBehaviour
 	private void PlayAudio(AudioSource audioSource, string audioClipName)
 	{
 		AudioClip audioClip = Resources.Load<AudioClip>(audioClipName);
+		Debug.Log("Audiosource: " + audioSource);
+		Debug.Log("Audioclip: " + audioClip);
 		if (audioSource != null && audioClip != null)
 		{
+			Debug.Log("Audiosource and Audioclip are not null");
+			audioSource.Stop();
 			audioSource.clip = audioClip;
 			audioSource.Play();
 			isPlaying = true;
