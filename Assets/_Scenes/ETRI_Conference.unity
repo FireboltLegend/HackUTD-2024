@@ -6915,6 +6915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TV
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58e441fb807f6ac4193bdc38d977e19f, type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10927,6 +10931,7 @@ GameObject:
   - component: {fileID: 772692057}
   - component: {fileID: 772692055}
   - component: {fileID: 772692056}
+  - component: {fileID: 772692058}
   m_Layer: 0
   m_Name: RightHand
   m_TagString: Untagged
@@ -10982,6 +10987,18 @@ Transform:
   - {fileID: 77467783}
   m_Father: {fileID: 1193649175}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &772692058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772692054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f5c4772a7072054ba39e8a4bcb36562, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &779097020
 GameObject:
   m_ObjectHideFlags: 0
@@ -14567,6 +14584,7 @@ GameObject:
   - component: {fileID: 881466996}
   - component: {fileID: 881466994}
   - component: {fileID: 881466995}
+  - component: {fileID: 881466997}
   m_Layer: 0
   m_Name: LeftHand
   m_TagString: Untagged
@@ -14622,6 +14640,18 @@ Transform:
   - {fileID: 2084204220}
   m_Father: {fileID: 1193649175}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &881466997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881466993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f5c4772a7072054ba39e8a4bcb36562, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &882770762
 GameObject:
   m_ObjectHideFlags: 0
@@ -16425,6 +16455,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 184b1bc5fe48fca458d332cd28ff3f10, type: 3}
       propertyPath: m_Name
       value: LampPost
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 184b1bc5fe48fca458d332cd28ff3f10, type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23450,6 +23484,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Watercooler_GeorgeX
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 67e268f08ce40b2438add4f3291204d7, type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26086,6 +26124,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a9967b3394c1fb34ea6478e010f71d43, type: 3}
       propertyPath: m_Name
       value: sink1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a9967b3394c1fb34ea6478e010f71d43, type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32803,6 +32845,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 15669396}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2004582793
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1441949093026986903, guid: 2129561fd5ef2284086f81f4eb432d8f, type: 3}
+      propertyPath: m_Name
+      value: '[bhaptics]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441949093026986904, guid: 2129561fd5ef2284086f81f4eb432d8f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441949093026986904, guid: 2129561fd5ef2284086f81f4eb432d8f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441949093026986904, guid: 2129561fd5ef2284086f81f4eb432d8f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441949093026986904, guid: 2129561fd5ef2284086f81f4eb432d8f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441949093026986904, guid: 2129561fd5ef2284086f81f4eb432d8f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441949093026986904, guid: 2129561fd5ef2284086f81f4eb432d8f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441949093026986904, guid: 2129561fd5ef2284086f81f4eb432d8f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441949093026986904, guid: 2129561fd5ef2284086f81f4eb432d8f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441949093026986904, guid: 2129561fd5ef2284086f81f4eb432d8f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441949093026986904, guid: 2129561fd5ef2284086f81f4eb432d8f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2129561fd5ef2284086f81f4eb432d8f, type: 3}
 --- !u!1 &2005788909
 GameObject:
   m_ObjectHideFlags: 0
@@ -35106,6 +35205,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 58e441fb807f6ac4193bdc38d977e19f, type: 3}
       propertyPath: m_Name
       value: TV (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58e441fb807f6ac4193bdc38d977e19f, type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -39307,3 +39410,4 @@ SceneRoots:
   - {fileID: 1315315119}
   - {fileID: 352293421}
   - {fileID: 2107903788}
+  - {fileID: 2004582793}
