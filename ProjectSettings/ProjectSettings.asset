@@ -737,7 +737,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: READY_PLAYER_ME
+    Android: READY_PLAYER_ME;FUSION_WEAVER;FUSION2
     EmbeddedLinux: READY_PLAYER_ME
     GameCoreScarlett: READY_PLAYER_ME
     GameCoreXboxOne: READY_PLAYER_ME
